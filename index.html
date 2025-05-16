@@ -1,67 +1,149 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CA Opportunity Ventures, LLC</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #eee;
     }
     header {
-      background-color: #003366;
-      color: white;
-      padding: 30px 20px;
+      background: url('https://images.unsplash.com/photo-1591696331119-4216a1a41cdc?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      padding: 80px 20px;
       text-align: center;
+      color: white;
+    }
+    header h1 {
+      background: rgba(0, 0, 0, 0.6);
+      display: inline-block;
+      padding: 12px 25px;
+      border-radius: 6px;
+      font-size: 32px;
+    }
+    nav {
+      background-color: #b30000;
+      text-align: center;
+      padding: 12px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
     }
     section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+      padding: 60px 20px;
+      border-bottom: 1px solid #333;
+      text-align: center;
     }
-    h1, h2 {
-      color: #003366;
+    section:nth-child(even) {
+      background-color: #1a1a1a;
     }
-    .contact {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
+    h2 {
+      color: #ff3333;
+    }
+    .contact-box {
+      background: #222;
+      padding: 30px;
+      border-radius: 10px;
+      display: inline-block;
+      color: #eee;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 20px;
     }
     footer {
-      background-color: #003366;
-      color: white;
+      background-color: #000;
+      color: #ccc;
       text-align: center;
-      padding: 15px;
-      margin-top: 50px;
+      padding: 20px;
+    }
+    a {
+      color: #ff3333;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
-  </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
+<header>
+  <h1>CA OPPORTUNITY VENTURES, LLC</h1>
+  <p>Your Next-Level Investment & Growth Partner</p>
+</header>
 
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
-    </div>
-  </section>
+<nav>
+  <a href="#intro">Intro</a>
+  <a href="#about">About</a>
+  <a href="#mission">Mission</a>
+  <a href="#services">Services</a>
+  <a href="#team">Team</a>
+  <a href="#vision">Vision</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#map">Map</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
-  </footer>
+<section id="intro">
+  <h2>Welcome</h2>
+  <p>Discover bold strategies and opportunities through CA Opportunity Ventures, LLC.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Founded in <strong>Chicago, IL</strong>, our company blends financial foresight with innovative action to build ventures that thrive.</p>
+</section>
+
+<section id="mission">
+  <h2>Our Mission</h2>
+  <p>To unlock potential for investors, partners, and communities through smart ventures and agile capital strategies.</p>
+</section>
+
+<section id="services">
+  <h2>What We Do</h2>
+  <p>We specialize in venture planning, strategic investment, advisory support, and scalable business acceleration.</p>
+</section>
+
+<section id="team">
+  <h2>Leadership</h2>
+  <p>Led by <strong>Thomas M. Scott</strong> and <strong>Arshad Khan</strong>, our team thrives on deep experience and bold leadership.</p>
+</section>
+
+<section id="vision">
+  <h2>Our Vision</h2>
+  <p>To lead the way in smart capital deployment across high-impact sectors in the U.S. and globally.</p>
+</section>
+
+<section id="testimonials">
+  <h2>Words From Our Partners</h2>
+  <p>"Their strategic clarity and execution discipline is unmatched."</p>
+  <p>"They truly understand how to spot and scale high-value opportunities."</p>
+</section>
+
+<section id="map">
+  <h2>Location</h2>
+  <p>Near North Side, Chicago, IL</p>
+  <iframe src="https://www.google.com/maps?q=Near+North+Side,+Chicago,+IL&output=embed" allowfullscreen></iframe>
+</section>
+
+<section id="contact">
+  <h2>Get in Touch</h2>
+  <div class="contact-box">
+    <p><strong>Email:</strong> <a href="mailto:contact@caopportunityventures.shop">contact@caopportunityventures.shop</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+13098945927">309-894-5927</a></p>
+    <p><strong>City:</strong> Chicago, IL</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 CA Opportunity Ventures, LLC. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
